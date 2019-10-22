@@ -257,10 +257,17 @@ img {
 }
 
 @media (max-width: 700px) {
+  body {
+    margin: 0;
+  }
   .top {
     grid-template-areas:
       "party party"
       "cta1 cta2";
+  }
+
+  .about {
+    grid-template-columns: 1fr;
   }
 }
 
